@@ -84,18 +84,18 @@ Screenshots
 
 (Add screenshots below once you have them—for example:)
 
-Home Page
+## Home Page
 ![Home Page Screenshot](src/assets/Home_Page.png)
 
-Translator Page
+## Translator Page
 ![Translator Screenshot](src/assets/Translator.png)
 
-Randomizer Page
+## Randomizer Page
 ![Randomizer Screenshot](src/assets/Randamizer.png)
 
 ## Author
 
-# Adithya
+# Palavalli S Adithya
 
 - GitHub: Adithyaspalavalli
 - Email: palavallisaditya@gmail.com
