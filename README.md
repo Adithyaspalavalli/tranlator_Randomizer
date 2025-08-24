@@ -93,7 +93,7 @@ Screenshots
 ## Randomizer Page
 ![Randomizer Screenshot](src/assets/Randamizer.png)
 
-## Author
+### Author
 
 # Palavalli S Adithya
 
