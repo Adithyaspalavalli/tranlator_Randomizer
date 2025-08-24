@@ -30,16 +30,15 @@
 ---
 
 ##  Tech Stack
-
+-------------------------------------------------------------
 | Layer     | Technologies                                  |
 |-----------|-----------------------------------------------|
 | Framework | React (via Vite)                              |
 | Styling   | Tailwind CSS                                  |
-| Routing   | React Router (`react-router-dom`)              |
-| API       | RapidAPI for translation service                |
-| Tools     | Vite, Node.js/NPM                              |
-
----
+| Routing   | React Router (`react-router-dom`)             |
+| API       | RapidAPI for translation service              |
+| Tools     | Vite, Node.js/NPM                             |
+-------------------------------------------------------------
 
 
 - **Navbar.jsx**: Top navigation bar with links to routes.
@@ -68,7 +67,8 @@
     npm install
 
 3. **Setup environment variables**
-   **Create a .env at the project root:**
+   Create a .env at the project root:
+   **you can get the this from RapidAPI.com**
 
    VITE_TRANSLATE_URL=YOUR_RAPISAPI_URL
    VITE_TRANSLATE_KEY=YOUR_RAPIDAPI_KEY_HERE
@@ -78,25 +78,25 @@
     ```bash
     npm run dev
 
-Visit http://localhost:5173 to explore the app.
+5. Visit http://localhost:5173 to explore the app.
 
 Screenshots
 
 (Add screenshots below once you have them—for example:)
 
 Home Page
-![Home Page Screenshot](screenshots/home.png)
+![Home Page Screenshot](src/assets/Home_Page.png)
 
 Translator Page
-![Translator Screenshot](screenshots/translator.png)
+![Translator Screenshot](src/assets/Translator.png)
 
 Randomizer Page
-![Randomizer Screenshot](screenshots/randomizer.png)
+![Randomizer Screenshot](src/assets/Randamizer.png)
 
 ## Author
 
 # Adithya
 
-GitHub: Adithyaspalavalli
-Email: your-email@example.com
+- GitHub: Adithyaspalavalli
+- Email: palavallisaditya@gmail.com
 
