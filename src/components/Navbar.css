@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+/* Add subtle shadow to sticky header */
+header.sticky {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* Brand styling */
+header .font-semibold {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  color: #111827; /* dark gray */
+  cursor: pointer;
+ margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+header .font-semibold:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+/* Nav links */
+nav a {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  font-size: large;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #f3f4f6; /* gray-100 */
+  color: #2563eb; /* blue-600 */
+}
+
+/* Active link (if using NavLink "active") */
+nav a.active {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Animated underline effect */
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 0;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}

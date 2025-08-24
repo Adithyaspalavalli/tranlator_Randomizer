@@ -1,0 +1,76 @@
+section.translator {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.translator h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.translator .grid {
+  display: grid;
+  gap: 100px;
+}
+
+@media (min-width: 768px) {
+  .translator .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.translator label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.translator textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  resize: vertical;
+}
+
+.translator textarea:focus {
+  border-color: #333;
+  box-shadow: 0 0 0 2px rgba(51, 51, 51, 0.2);
+}
+
+.translator select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.translator button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+}
+
+.translator button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.translator .error {
+  font-size: 0.85rem;
+  color: #e63946;
+  margin-top: 5px;
+}
