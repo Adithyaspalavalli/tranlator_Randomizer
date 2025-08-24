@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Home from "./pages/home.jsx";
 import Translator from "./pages/Translator";
 import Randomizer from "./pages/Randomizer";
 
@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <main className="mx-auto max-w-5xl px-4 py-6">
         <Routes>
-          <Route path="/" element={<home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/translator" element={<Translator />} />
           <Route path="/randomizer" element={<Randomizer />} />
         </Routes>
