@@ -10,15 +10,16 @@
 
 ##  Table of Contents
 
-1. [Demo](#-demo)
-2. [Tech Stack](#-tech-stack)
-3. [Project Structure](#-project-structure)
-4. [Getting Started](#-getting-started)
-5. [Usage](#-usage)
-6. [Deployment](#-deployment)
-7. [Screenshots](#-screenshots)
-8. [Author](#-author)
-9. [License](#-license)
+1. [Demo](#demo)
+2. [Tech Stack](#tech-stack)
+3. [Project Structure](#project-structure)
+4. [Getting Started](#getting-started)
+5. [Usage](#usage)
+6. [Deployment](#deployment)
+7. [Screenshots](#screenshots)
+8. [Author](#author)
+9. [License](#license)
+
 
 ---
 
