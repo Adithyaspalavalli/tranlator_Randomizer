@@ -1,6 +1,6 @@
 import "./home.css";
 
-export default function Home() {
+export default function home() {
   return (
     <section className="home-section">
       <h1>Welcome to Frontend project here you can find a Tranalator and a Randamizer 👋</h1>
