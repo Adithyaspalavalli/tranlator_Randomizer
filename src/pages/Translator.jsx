@@ -20,7 +20,7 @@ export default function Translator() {
   const [text, setText] = useState("");
   const [target, setTarget] = useState("hi");
   const [out, setOut] = useState("");
-  const [rawOut, setRawOut] = useState(""); // ✅ to hold raw response
+  const [rawOut, setRawOut] = useState("");
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
 
@@ -42,8 +42,7 @@ export default function Translator() {
     }
   }, [text, target]);
 
- 
-    return (
+  return (
     <section className="translator">
       <h2>Text Translator</h2>
       <div className="grid">
